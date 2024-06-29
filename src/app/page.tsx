@@ -51,7 +51,7 @@ export default function Home() {
             />
           </a>
           <a
-            href="https://t.me/wittysolana"
+            href="https://pump.fun/B8HjnnJVh6Wn8z1eexJg9ZQFNn2P12na8eqQ8V6spump"
             className="rounded-full border-[3px] border-solid border-black"
             target="_blank"
           >
