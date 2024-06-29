@@ -22,7 +22,7 @@ export default function Home() {
       </div>
       <div className="mt-20 p-6 border-solid border-[3px] border-white rounded-[10px] w-[60%] flex justify-center">
         <span className="text-white text-[2rem]">
-          CA: Not available
+          CA: 9pzVHiBR789SqPBh3dxVUpAZMk7qmGkbZAT1G6Dzpump
         </span>
       </div>
       <div className="flex flex-col gap-5 mt-20 items-center">
@@ -62,7 +62,7 @@ export default function Home() {
             />
           </a>
           <a
-            href="https://t.me/charizerdsol"
+            href="https://pump.fun/9pzVHiBR789SqPBh3dxVUpAZMk7qmGkbZAT1G6Dzpump"
             className="rounded-full border-[3px] border-solid border-black"
             target="_blank"
           >
