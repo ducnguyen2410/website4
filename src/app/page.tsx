@@ -17,7 +17,7 @@ export default function Home() {
         />
       </div>
       <div className="mt-20 p-6 border-solid border-[3px] border-white rounded-[10px] w-[60%] flex justify-center">
-        <span className="text-white text-[2rem]">CA: Not available</span>
+        <span className="text-white text-[2rem]">CA: B8HjnnJVh6Wn8z1eexJg9ZQFNn2P12na8eqQ8V6spump</span>
       </div>
       <div className="flex flex-col gap-5 mt-20 items-center">
         <Image src={dogLogo} alt="" width={300}/>
