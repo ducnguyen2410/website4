@@ -22,7 +22,7 @@ export default function Home() {
       </div>
       <div className="mt-20 p-6 border-solid border-[3px] border-white rounded-[10px] w-[60%] flex justify-center">
         <span className="text-white text-[2rem]">
-          CA: Not Available
+          CA: 2GAT83b7QpH2cqWYuobLAAfqMD6Am8hmCH5hukJcpump
         </span>
       </div>
       <div className="flex flex-col gap-5 mt-20 items-center">
@@ -63,7 +63,7 @@ export default function Home() {
             />
           </a>
           <a
-            href="https://t.me/diglettpokemon"
+            href="https://pump.fun/2GAT83b7QpH2cqWYuobLAAfqMD6Am8hmCH5hukJcpump"
             className="rounded-full border-[3px] border-solid border-black"
             target="_blank"
           >
