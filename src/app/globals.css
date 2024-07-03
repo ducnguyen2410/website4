@@ -33,6 +33,7 @@ body > * {
 
 @media only screen and (max-device-width: 450px) and (max-device-width: 950px) {
   .contacts {
+    margin-top: 0;
     padding: 0;
   }
 }
