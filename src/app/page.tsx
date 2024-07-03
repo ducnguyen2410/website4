@@ -17,7 +17,7 @@ export default function Home() {
         />
       </div>
       <div className="mt-20 p-6 border-solid border-[3px] border-white rounded-[10px] w-[60%] flex justify-center">
-        <span className="text-white text-[2rem]">CA: Coming soon</span>
+        <span className="text-white text-[2rem]">CA: 9N2uDiC3tYbmNeeHVR5YhgUgp7uwbvrZiPhiDjdepump</span>
       </div>
       <div className="flex flex-col gap-5 mt-20 items-center">
         <Image src={kiwi} alt="" width={300}/>
@@ -51,7 +51,7 @@ export default function Home() {
             />
           </a>
           <a
-            href=""
+            href="https://pump.fun/9N2uDiC3tYbmNeeHVR5YhgUgp7uwbvrZiPhiDjdepump"
             className="rounded-full border-[3px] border-solid border-black"
             target="_blank"
           >
