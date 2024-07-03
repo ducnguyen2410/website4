@@ -17,7 +17,7 @@ export default function Home() {
         />
       </div>
       <div className="mt-20 p-6 border-solid border-[3px] border-white rounded-[10px] w-[60%] flex justify-center">
-        <span className="text-white text-[2rem]">CA: Not available</span>
+        <span className="text-white text-[2rem]">CA: Coming soon</span>
       </div>
       <div className="flex flex-col gap-5 mt-20 items-center">
         <Image src={kiwi} alt="" width={300}/>
@@ -27,7 +27,7 @@ export default function Home() {
         <span className="text-white font-bold text-[2rem]">Buy this kitten at</span>
         <div className="flex flex-row gap-20 mt-10 p-10 border-white border-[3px] rounded-full border-solid w-[60%] justify-center">
           <a
-            href="https://t.me/kiwithekawaii"
+            href=""
             className="rounded-full border-[3px] border-solid border-black"
             target="_blank"
           >
@@ -51,7 +51,7 @@ export default function Home() {
             />
           </a>
           <a
-            href="https://t.me/kiwithekawaii"
+            href=""
             className="rounded-full border-[3px] border-solid border-black"
             target="_blank"
           >
