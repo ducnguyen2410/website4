@@ -25,7 +25,7 @@ export default function Home() {
       </div>
       <div className="flex flex-col mt-20 w-full items-center">
         <span className="text-white font-bold text-[2rem]">Buy this kitten at</span>
-        <div className="flex flex-row gap-20 mt-10 p-10 border-white border-[3px] rounded-full border-solid w-[60%] justify-center">
+        <div className="flex flex-row gap-20 mt-10 p-10 border-white border-[3px] rounded-full border-solid w-[60%] justify-center contacts">
           <a
             href=""
             className="rounded-full border-[3px] border-solid border-black"

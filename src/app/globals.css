@@ -30,3 +30,9 @@ body > * {
 .hello {
   display: flex;
 }
+
+@media only screen and (max-device-width: 450px) and (max-device-width: 950px) {
+  .contacts {
+    padding: 0;
+  }
+}
