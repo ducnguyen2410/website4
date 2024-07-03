@@ -1,6 +1,6 @@
 import Image from "next/image";
-import banner from "./../../public/banner.png";
-import dogLogo from "./../../public/dogLogo.png";
+import banner from "./../../public/kiwi_banner.jpg";
+import kiwi from "./../../public/kiwi_logo.jpg";
 import pumpfund from "../../public/EmT4yP6S_400x400.jpg";
 import telegram from "../../public/teleIcon.svg";
 import twitter from "../../public/twitterIcon.svg";
@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className="w-full h-screen overflow-auto flex flex-col items-center">
       <div className="mt-20 items-center gap-10 flex flex-col">
-        <span className="text-[3rem] text-white">$WITTY $WITTY</span>
+        <span className="text-[3rem] text-white">$KIWI $KIWI</span>
         <Image
           src={banner}
           alt=""
@@ -20,14 +20,14 @@ export default function Home() {
         <span className="text-white text-[2rem]">CA: Not available</span>
       </div>
       <div className="flex flex-col gap-5 mt-20 items-center">
-        <Image src={dogLogo} alt="" width={300}/>
-        <span className="font-[600] text-white">The tiniest dog on Solana</span>
+        <Image src={kiwi} alt="" width={300}/>
+        <span className="font-[600] text-white">A cat that can meow all day</span>
       </div>
       <div className="flex flex-col mt-20 w-full items-center">
-        <span className="text-white font-bold text-[2rem]">Buy this puppy at</span>
+        <span className="text-white font-bold text-[2rem]">Buy this kitten at</span>
         <div className="flex flex-row gap-20 mt-10 p-10 border-white border-[3px] rounded-full border-solid w-[60%] justify-center">
           <a
-            href="https://t.me/wittysolana"
+            href="https://t.me/kiwithekawaii"
             className="rounded-full border-[3px] border-solid border-black"
             target="_blank"
           >
@@ -39,7 +39,7 @@ export default function Home() {
             />
           </a>
           <a
-            href="https://x.com/wittysolana"
+            href="https://x.com/kiwikawaiicat"
             className="rounded-full border-[3px] border-solid border-black"
             target="_blank"
           >
@@ -51,7 +51,7 @@ export default function Home() {
             />
           </a>
           <a
-            href="https://t.me/wittysolana"
+            href="https://t.me/kiwithekawaii"
             className="rounded-full border-[3px] border-solid border-black"
             target="_blank"
           >
