@@ -31,9 +31,37 @@ body > * {
   display: flex;
 }
 
-@media only screen and (max-device-width: 450px) and (max-device-width: 950px) {
+@media only screen and (max-device-width: 450px) and (max-device-height: 950px) {
   .contacts {
     margin-top: 0;
     padding: 0;
+    height: 100px;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .container2 {
+    width: 90%;  /* Adjust according to your layout */
+    height: auto;  /* Adjust height as needed to contain the span */
+    position: relative;  /* If you need to position the span absolutely within */
+}
+
+  .text-ca {
+    width: 100%;
+    display: block;
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    overflow-wrap: break-word;
+  }
+
+  .contacts1 {
+    margin-top: 10px;
+    height: 300px;
+  }
+
+  #imgg {
+    max-width: 30px;
   }
 }

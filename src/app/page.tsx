@@ -16,16 +16,16 @@ export default function Home() {
           className="border-[3px] border-solid border-white rounded-[10px]"
         />
       </div>
-      <div className="mt-20 p-6 border-solid border-[3px] border-white rounded-[10px] w-[60%] flex justify-center">
-        <span className="text-white text-[2rem]">CA: 9N2uDiC3tYbmNeeHVR5YhgUgp7uwbvrZiPhiDjdepump</span>
+      <div className="mt-20 p-6 border-solid border-[3px] border-white rounded-[10px] w-[60%] container2">
+        <span className="text-white text-[2rem] text-ca">CA: 9N2uDiC3tYbmNeeHVR5YhgUgp7uwbvrZiPhiDjdepump</span>
       </div>
       <div className="flex flex-col gap-5 mt-20 items-center">
         <Image src={kiwi} alt="" width={300}/>
         <span className="font-[600] text-white">A cat that can meow all day</span>
       </div>
-      <div className="flex flex-col mt-20 w-full items-center">
+      <div className="flex flex-col mt-20 w-full items-center contacts1">
         <span className="text-white font-bold text-[2rem]">Buy this kitten at</span>
-        <div className="flex flex-row gap-20 mt-10 p-10 border-white border-[3px] rounded-full border-solid w-[60%] justify-center contacts">
+        <div className="flex flex-row gap-20 mt-10 p-10 border-white border-[3px] rounded-full border-solid w-[80%] justify-center contacts">
           <a
             href=""
             className="rounded-full border-[3px] border-solid border-black"
@@ -36,11 +36,12 @@ export default function Home() {
               alt="Telegram"
               width="65"
               className="rounded-full"
+              id="imgg"
             />
           </a>
           <a
             href="https://x.com/kiwikawaiicat"
-            className="rounded-full border-[3px] border-solid border-black"
+            className="rounded-full border-[3px] border-solid border-black imgg"
             target="_blank"
           >
             <Image
@@ -48,6 +49,7 @@ export default function Home() {
               alt="Twitter"
               width="65"
               className="rounded-full"
+              id="imgg"
             />
           </a>
           <a
@@ -61,6 +63,7 @@ export default function Home() {
               height="65"
               width="65"
               className="rounded-full"
+              id="imgg"
             />
           </a>
         </div>
